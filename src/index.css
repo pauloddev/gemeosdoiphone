@@ -412,7 +412,7 @@ ul, ol { list-style: none; margin: 0; padding: 0; }
   .focus__slide[data-pos='1'] { transform: translate3d(86%, 0, 0) scale(0.8); }
   .focus__stage { height: calc(84vw * 9 / 16); }
   .prox { flex-direction: column; align-items: stretch; min-height: 0; padding-bottom: 0; }
-  .prox__hand { position: relative; top: auto; right: auto; align-self: flex-end; width: min(96vw, 620px); margin-top: 28px; transform: translate3d(105%, 0, 0) rotate(8deg); }
+  .prox__hand { position: relative; top: auto; right: auto; align-self: flex-end; width: min(124vw, 820px); margin-top: 28px; margin-right: max(-30vw, -200px); transform: translate3d(105%, 0, 0) rotate(8deg); }
   .prox.is-in .prox__hand { transform: none; animation: floatSm 6s ease-in-out 1.6s infinite; }
   @keyframes floatSm { 50% { transform: translate3d(0, -10px, 0) rotate(-1.2deg); } }
   .cookie { flex-wrap: wrap; }
